@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------background */
+.container-fluid{
+    /* margin: 0%; */
+    background-image: url(https://i.pinimg.com/originals/f2/7a/7d/f27a7de06d8dbb8f648916fe0a27c8fc.gif);
+    background-size: cover;
+    /* margin-bottom: 0px; */
+    height:auto;
+/* max-height:200vh; */
+}
+
+.row{
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+    
+}
+/* -----------------------------header */
+.header {
+   background-image:url(https://i.pinimg.com/originals/f2/7a/7d/f27a7de06d8dbb8f648916fe0a27c8fc.gif);
+    background-size: cover;
+    background-position: relative;
+    
+    text-align: center;
+    padding: 5rem;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+.header h1 {
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+}
+.header p {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.5 rem;
+    color: #e4eff7;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: #d0e5f5;
+}
+
+main{
+background-color:#B04759 ;
+}    
+    
+    
+
+
+/* --------------------------------input section */
+.inputs {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 30rem;
+    background: #B04759;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px #212A3E;
+    color: #212A3E;
+    border-radius: 3px;
+    margin-right:4px ;
+    
+}
+.inputs input[type="submit"] {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: #B04759;
+    font-weight: bold;
+    color: #212A3E;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4px;
+}
+
+/* -------------------------------display */
+.display {
+    text-align: center;
+    color: black;
+    
+   
+}
+.wrapper {
+    
+    margin: 0 9rem;
+    width: 50%;
+    
+    height: 40vh;
+    margin: 50px auto;
+    border: 3px solid #212A3E;
+border-radius: 5px;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+  }
+  .wrapper p{
+    text-align: center;
+    margin:10px 0;
+    font-size:20px;
+  }
+
+
+
+  
